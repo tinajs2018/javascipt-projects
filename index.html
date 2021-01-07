@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding effects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- slideshow container -->
+  <div class="slideshow-container" >
+      <!-- full widtn with images numbers and captain text -->
+      <div class="mySlides fade">
+          <div class="numberText">3</div>
+          <img src="/img10.jpg" alt="" style="width: 250px;" height="200px">
+          <div class="text">captain text one</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numberText">2</div>
+        <img src="/img5.jpg" alt="" style="width: 250px;" height="200px">
+        <div class="text">captain text two</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numberText">1</div>
+        <img src="/img7.jpg" alt="" style="width: 250px;" height="200px">
+        <div class="text">captain text three</div>
+    </div>
+<!-- next and previous button -->
+<a class="prev" onclick="plusSlides(-1)"> &#10094</a>
+<a class="next" onclick="plusSlides(1)"> &#10095</a>
+  </div>
+  <br>
+  <!-- the dots and the circles -->
+  <div style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+
+  </div>
+
+    
+
+    
+
+<script src="main.js"></script>
+</body>
+</html>
